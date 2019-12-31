@@ -1,0 +1,27 @@
+---
+title: "Test Doc"
+author: "Me"
+date: "`r format(Sys.Date(), '%e %B %Y')`"
+site: bookdown::bookdown_site
+knit: "bookdown::render_book"
+output:
+  bookdown::gitbook: default
+#always_allow_html: true
+documentclass: book
+bibliography: ["packages.bib"]
+biblio-style: apalike
+link-citations: true
+github-repo: andybeet/test-doc
+description: "This book documents nothing"
+---
+
+# Introduction {-}
+
+The purpose of this document is to collate the methods used to access, collect, process, and analyze derived data used to describe the status and trend of social, economical, ecological, and biological conditions 
+
+```{r setup, echo=F, message = F ,warning = F}
+knitr::opts_chunk$set(echo = F, message = F ,warning = F) 
+
+```
+
+
