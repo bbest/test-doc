@@ -32,13 +32,13 @@ script:
 #after_script:
 #before_deploy:
 
-deploy:
-  provider: pages
-  skip-cleanup: true
-  github-token: $GITHUB_TOKEN
-  keep_history: true
-  local_dir: build
-  on:
-    branch: master
+#deploy:
+#  provider: pages
+#  skip-cleanup: true
+#  github-token: $GITHUB_TOKEN
+#  keep_history: true
+#  local_dir: build
+#  on:
+#    branch: master
 
 #after_deploy:
