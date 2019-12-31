@@ -1,11 +1,11 @@
 #!/bin/sh
 
 set -e
-[ -z "${GITHUB_PAT}" ] && exit 0
+[ -z "${GITHUB_TOKEN}" ] && exit 0
 [ "${TRAVIS_BRANCH}" != "master" ] && exit 0
 git config --global user.email "andrew.beet@noaa.gov"
 git config --global user.name "andybeet"
-git clone -b gh-pages https://${GITHUB_PAT}@github.com/${TRAVIS_REPO_SLUG}.git book-output
+git clone -b gh-pages https://${GITHUB_TOKEN}@github.com/${TRAVIS_REPO_SLUG}.git book-output
 cd book-output
 cp -r ../_book/* ./
 git add --all *
