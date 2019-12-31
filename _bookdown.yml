@@ -1,5 +1,6 @@
 rmd_files: ["index.Rmd",
 "chapters/references.Rmd"]
 delete_merged_file: false
-new_session: no
+output_dir: "_book"
+new_session: false # merge and knit as appose to knit and merge
 book_filename: test_doc
