@@ -1,3 +1,5 @@
+# instructions for travis build and deploy
+
 language: r
 pandoc_version: 2.6
 cache:
