@@ -1,9 +1,9 @@
 Package: placeholder
+Type: Book
 Title: Test-doc
 Description: Test doc for travis
-Version: 2.0.0
-Imports: 
-  bookdown, 
-  rmarkdown
+Version: 0.0.1
+Imports: bookdown
+Remotes: rstudio/bookdown
 
 
