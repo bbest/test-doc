@@ -55,11 +55,11 @@ Depends:
   kernlab,
   sf
 Remotes: 
-rstudio/bookdown,          
-ropensci/rnaturalearthhires, 
-NOAA-EDAB/ecodata,
-slucey/RSurvey/Survdat,
-thomasp85/patchwork
+  rstudio/bookdown,
+  slucey/RSurvey/Survdat,
+  NOAA-EDAB/ecodata,
+  thomasp85/patchwork, 
+  ropensci/rnaturalearthhires
 
 
 
