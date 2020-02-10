@@ -41,7 +41,6 @@ Depends:
   openxlsx,
   lubridate, 
   rgeos,
-  Survdat,
   kableExtra,
   here,
   ks,
@@ -54,12 +53,13 @@ Depends:
   xml2,
   ggrepel,
   kernlab,
-  sf,
-  patchwork,
-  Survdat
-Remotes: rstudio/bookdown,          
-         ropensci/rnaturalearthhires, 
-         NOAA-EDAB/ecodata
+  sf
+Remotes: 
+rstudio/bookdown,          
+ropensci/rnaturalearthhires, 
+NOAA-EDAB/ecodata,
+slucey/RSurvey/Survdat,
+thomasp85/patchwork
 
 
 
