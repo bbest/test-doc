@@ -1,0 +1,25 @@
+# Seasonal SST Anomalies
+
+**Description**: Seasonal SST Anomalies
+
+**Indicator category**: Database pull with analysis
+
+**Found in**: State of the Ecosystem - Gulf of Maine & Georges Bank (2018, 2019, 2020), State of the Ecosystem - Mid-Atlantic (2018, 2019, 2020)
+
+**Contributor(s)**: Sean Hardison, Vincent Saba
+  
+**Data steward**: Kimberly Bastille, <kimberly.bastille@noaa.gov>
+  
+**Point of contact**: Kimberly Bastille, <kimberly.bastille@noaa.gov>
+  
+**Public availability statement**: Source data are available [here](https://www.esrl.noaa.gov/psd/data/gridded/data.noaa.oisst.v2.highres.html).
+
+
+test for rnaturalhires
+
+### Plotting
+
+
+```{r , code = readLines("https://raw.githubusercontent.com/NOAA-EDAB/ecodata/master/chunk-scripts/LTL.Rmd-MAB-SST-insitu.R"), echo = F, fig.align="center", eval = T, ig.cap="MAB seasonal sea surface temperature time series overlaid onto 2019 seasonal spatial anomalies."}
+
+```
