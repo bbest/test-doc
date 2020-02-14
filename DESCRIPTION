@@ -28,10 +28,6 @@ Depends:
   raster,
   grid,
   gridExtra,
-  magick,
+  magick
 
-Remotes: 
-  slucey/RSurvey/Survdat,
-  NOAA-EDAB/ecodata,
-  thomasp85/patchwork, 
   
