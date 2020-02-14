@@ -52,4 +52,7 @@ Depends:
   ggrepel,
   kernlab,
   sf
+Remotes: 
+  rstudio/bookdown,
+  slucey/RSurvey/Survdat
   
