@@ -44,5 +44,12 @@ Depends:
   here,
   ks,
   geosphere,
-  purrr
+  purrr,
+  remotes (> 2.0.2),
+  RCurl,
+  rvest,
+  xml2,
+  ggrepel,
+  kernlab,
+  sf
   
