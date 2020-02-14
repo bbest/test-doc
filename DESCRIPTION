@@ -18,6 +18,18 @@ Depends:
   marmap,
   rerddap,
   vegan,
+  mgcv,
+  ggplot2,
+  rpart, 
+  Kendall,
+  zoo,
+  colorRamps,
+  Hmisc,
+  raster,
+  grid,
+  gridExtra,
+  magick,
+
 Remotes: 
   slucey/RSurvey/Survdat,
   NOAA-EDAB/ecodata,
