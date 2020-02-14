@@ -24,11 +24,9 @@ knitr::opts_chunk$set(echo = F, message = F ,warning = F)
 #Plotting and data libraries
 #library(formatR)
 library(tidyverse)
-#library(ecodata)
 library(here)
 library(kableExtra)
 library(ggrepel)
-library(patchwork)
 library(grid)
 library(vegan)
 library(rpart)
@@ -44,6 +42,8 @@ library(sf)
 library(rgdal)
 library(raster)
 #library(rnaturalearth)
+#library(ecodata)
+#library(patchwork)
 
 # Time series constants
 shade.alpha <- 0.3

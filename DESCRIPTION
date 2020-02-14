@@ -51,7 +51,6 @@ Depends:
   sf,
   plyr
 Remotes: 
-  rstudio/bookdown,
   slucey/RSurvey/Survdat,
   NOAA-EDAB/ecodata,
   thomasp85/patchwork
