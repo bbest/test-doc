@@ -19,7 +19,6 @@ Depends:
   rerddap,
   vegan,
   mgcv,
-  ggplot2,
   rpart, 
   Kendall,
   zoo,
@@ -35,7 +34,6 @@ Depends:
   cowplot,
   stats,
   geosphere,
-  readr,
   sp,
   openxlsx,
   lubridate, 
@@ -44,14 +42,14 @@ Depends:
   here,
   ks,
   geosphere,
-  purrr,
   remotes (> 2.0.2),
   RCurl,
   rvest,
   xml2,
   ggrepel,
   kernlab,
-  sf
+  sf,
+  plyr
 Remotes: 
   rstudio/bookdown,
   slucey/RSurvey/Survdat,
