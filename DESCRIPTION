@@ -28,6 +28,21 @@ Depends:
   raster,
   grid,
   gridExtra,
-  magick
-
+  magick,
+  readxl,
+  reshape2,
+  RColorBrewer,
+  cowplot,
+  stats,
+  geosphere,
+  readr,
+  sp,
+  openxlsx,
+  lubridate, 
+  rgeos,
+  kableExtra,
+  here,
+  ks,
+  geosphere,
+  purrr
   
