@@ -28,7 +28,6 @@ Depends:
   raster,
   grid,
   gridExtra,
-  ncdf4,
   magick,
   readxl,
   reshape2,
@@ -59,4 +58,4 @@ Remotes:
   slucey/RSurvey/Survdat,
   NOAA-EDAB/ecodata,
   thomasp85/patchwork, 
-  ropensci/rnaturalearthhires
+  
