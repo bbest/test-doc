@@ -24,7 +24,7 @@ knitr::opts_chunk$set(echo = F, message = F ,warning = F)
 #Plotting and data libraries
 #library(formatR)
 library(tidyverse)
-library(ecodata)
+#library(ecodata)
 library(here)
 library(kableExtra)
 library(ggrepel)
