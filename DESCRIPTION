@@ -3,8 +3,7 @@ Type: Book
 Title: Test-doc
 Description: Test doc for travis
 Version: 0.0.1
-Imports: bookdown
-Depends: 
+Imports:
   bookdown, 
   rmarkdown,
   tidyverse,
