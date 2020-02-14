@@ -21,7 +21,7 @@ script:
 
 deploy:
   provider: pages
-  cleanup: false
+  skip_cleanup: true
   token: $GITHUB_TOKEN
   local_dir: _book
   on:
