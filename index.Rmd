@@ -42,7 +42,7 @@ library(sf)
 library(rgdal)
 library(raster)
 #library(rnaturalearth)
-#library(ecodata)
+library(ecodata)
 #library(patchwork)
 
 # Time series constants
