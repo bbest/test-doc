@@ -23,6 +23,7 @@ knitr::opts_chunk$set(echo = F, message = F ,warning = F)
 
 #Plotting and data libraries
 #library(formatR)
+library(plyr)
 library(tidyverse)
 library(here)
 library(kableExtra)
@@ -35,7 +36,6 @@ library(rmarkdown)
 library(magick)
 library(RColorBrewer)
 library(ks)
-library(plyr)
 library(cowplot)
 #GIS libraries
 library(sf)

@@ -4,6 +4,7 @@ Title: Test-doc
 Description: Test doc for travis
 Version: 0.0.1
 Imports:
+  plyr,
   bookdown, 
   rmarkdown,
   tidyverse,
@@ -47,8 +48,7 @@ Imports:
   xml2,
   ggrepel,
   kernlab,
-  sf,
-  plyr
+  sf
 Remotes: 
   slucey/RSurvey/Survdat,
   NOAA-EDAB/ecodata,
