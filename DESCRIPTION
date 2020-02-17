@@ -4,6 +4,7 @@ Title: Test-doc
 Description: Test doc for travis
 Version: 0.0.1
 Imports:
+  remotes (> 2.1.0),
   plyr,
   bookdown, 
   rmarkdown,
@@ -42,7 +43,6 @@ Imports:
   here,
   ks,
   geosphere,
-  remotes (> 2.0.2),
   RCurl,
   rvest,
   xml2,
