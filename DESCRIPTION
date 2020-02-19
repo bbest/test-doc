@@ -51,7 +51,7 @@ Imports:
   sf
 Remotes: 
   slucey/RSurvey/Survdat,
-  NOAA-EDAB/ecodata@0.2.0,
+  NOAA-EDAB/ecodata,
   thomasp85/patchwork,
   ropenscilabs/rnaturalearth
   
