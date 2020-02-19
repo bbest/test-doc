@@ -89,7 +89,7 @@ See the [workedExample vignette](https://github.com/andybeet/indexPPR/tree/maste
 
 ```{r, pprgom,echo=FALSE, out.width='50%'}
 
-knitr::include_graphics(paste0(imagePath,"test.png"))
+knitr::include_graphics(file.path(imagePath,'test.png'))
 #knitr::include_graphics(paste0(imagePath,"PPR-GOM-0_80.png"))
 #knitr::include_graphics(paste0(imagePath,"MTL-GOM-0_80.png"))
 #knitr::include_graphics(paste0(imagePath,"PP-GOM.png"))
