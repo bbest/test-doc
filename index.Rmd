@@ -6,7 +6,7 @@ site: bookdown::bookdown_site
 knit: "bookdown::render_book"
 #always_allow_html: true
 documentclass: book
-bibliography: ["packages.bib"]
+bibliography: ["bibliography/primary_production_required.bib","packages.bib"]
 biblio-style: apalike
 link-citations: true
 github-repo: andybeet/test-doc
