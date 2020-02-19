@@ -15,10 +15,9 @@
 **Public availability statement**: Source data is not publicly availabe due to PII restrictions. 
   
 ```{r pprchunk1, echo = F, eval = T}  
-imagePath <- "https://raw.githubusercontent.com/andybeet/indexPPR/master/vignettes/figures"
+imagePath <- "https://raw.githubusercontent.com/andybeet/indexPPR/master/vignettes/figures/"
 ```
 
-  
 ## Methods
 
 The index is a measure of the impact of fishing on the base of the foodweb. The amount of potential yield we can expect from a marine ecosystem depends on the amount of production entering at the base of the food web, primarily in the form of phytoplankton; the pathways this energy follows to reach harvested species; the efficiency of transfer of energy at each step in the food web; and the fraction of this production that is removed by the fisheries.  Species such as scallops and clams primarily feed directly on larger phytoplankton species and therefore require only one step in the transfer of energy. The loss of energy at each step can exceed 80-90%.  For many fish species, as many as 2-4 steps may be necessary. Given the trophic level and the efficiency of energy transfer of the species in the ecosystem the amount phytoplankton production required (PPR) to account for the observed catch can be estimated.
@@ -79,30 +78,30 @@ See the [workedExample vignette](https://github.com/andybeet/indexPPR/tree/maste
 #### Georges Bank (GB)
 
 ```{r, pprgb, echo=FALSE, out.width='50%'}
-
-knitr::include_graphics(paste0(imagePath,"/PPR-GB-0_80.png"))
-#knitr::include_graphics(paste0(imagePath,"/MTL-GB-0_80.png"))
-#knitr::include_graphics(paste0(imagePath,"/PP-GB.png"))
-#knitr::include_graphics(paste0(imagePath,"/composition-GB-0_80.png"))
+                                         
+knitr::include_graphics(paste0(imagePath,"PPR-GB-0_80.png"))
+knitr::include_graphics(paste0(imagePath,"MTL-GB-0_80.png"))
+knitr::include_graphics(paste0(imagePath,"PP-GB.png"))
+knitr::include_graphics(paste0(imagePath,"composition-GB-0_80.png"))
 ```
 
 #### Gulf of Maine (GOM)
 
 ```{r, pprgom,echo=FALSE, out.width='50%'}
 
-#knitr::include_graphics(paste0(imagePath,"/PPR-GOM-0_80.png"))
-#knitr::include_graphics(paste0(imagePath,"/MTL-GOM-0_80.png"))
-#knitr::include_graphics(paste0(imagePath,"/PP-GOM.png"))
-#knitr::include_graphics(paste0(imagePath,"/composition-GOM-0_80.png"))
+knitr::include_graphics(paste0(imagePath,"PPR-GOM-0_80.png"))
+knitr::include_graphics(paste0(imagePath,"MTL-GOM-0_80.png"))
+knitr::include_graphics(paste0(imagePath,"PP-GOM.png"))
+knitr::include_graphics(paste0(imagePath,"composition-GOM-0_80.png"))
 ```
 
 #### Mid-Atlantic Bight (MAB)
 
 ```{r, pprmab,  echo=FALSE, out.width='50%'}
-#knitr::include_graphics(paste0(imagePath,"/PPR-MAB-0_80.png"))
-#knitr::include_graphics(paste0(imagePath,"/MTL-MAB-0_80.png"))
-#knitr::include_graphics(paste0(imagePath,"/PP-MAB.png"))
-#knitr::include_graphics(paste0(imagePath,"/composition-MAB-0_80.png"))
+knitr::include_graphics(paste0(imagePath,"PPR-MAB-0_80.png"))
+knitr::include_graphics(paste0(imagePath,"MTL-MAB-0_80.png"))
+knitr::include_graphics(paste0(imagePath,"PP-MAB.png"))
+knitr::include_graphics(paste0(imagePath,"composition-MAB-0_80.png"))
 ```
 
 
