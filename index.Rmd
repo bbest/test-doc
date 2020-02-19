@@ -41,7 +41,7 @@ library(cowplot)
 library(sf)
 library(rgdal)
 library(raster)
-#library(rnaturalearth)
+library(rnaturalearth)
 library(ecodata)
 #library(patchwork)
 
