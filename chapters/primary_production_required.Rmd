@@ -15,7 +15,7 @@
 **Public availability statement**: Source data is not publicly availabe due to PII restrictions. 
   
 ```{r pprchunk1, echo = F, eval = T}  
-imagePath <- "https://raw.githubusercontent.com/andybeet/indexPPR/master/vignettes/figures/"
+imagePath <- "https://raw.githubusercontent.com/andybeet/indexPPR/master/vignettes/figures"
 ```
 
 ## Methods
