@@ -91,6 +91,20 @@ epu <- "Mid-Atlantic Bight"
 epu_abbr <- "MAB"
 region <- "Mid-Atlantic"
 region_abbr <- "MA"
+
+library(glue)
+url2fig <- function(pfx, sfx){
+  pfx = "https://raw.githubusercontent.com/andybeet/indexPPR/master/vignettes/figures"
+  sfx = 'test.png'
+  
+  url <- glue("{pfx}/{sfx}")
+  fig <- here(glue("figures/{sfx}"))
+  
+  dir.create(dirname(fig), showWarnings = F, recursive = T)
+  
+  if (!file.exists(fig)) download.file(url, fig)
+  knitr::include_graphics(fig)
+}
 ```
 
 Trouble shooting the rnaturaleathhires issues in tech doc
