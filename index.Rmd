@@ -20,6 +20,7 @@ The purpose of this document is to collate the methods used to access, collect, 
 ```{r setup, echo=F, message = F ,warning = F}
 knitr::opts_chunk$set(echo = F, message = F ,warning = F) 
 
+options(tinytex.verbose = TRUE)
 
 #Plotting and data libraries
 #library(formatR)
