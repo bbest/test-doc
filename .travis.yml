@@ -2,9 +2,10 @@
 
 os: linux
 language: r
-r_github_packages: NOAA-EDAB/ecodata
-r_github_packages: ropensci/rnaturalearth
-r_github_packages: ropensci/rnaturalearthhires
+r_github_packages: 
+  - NOAA-EDAB/ecodata
+  - ropensci/rnaturalearth
+  - ropensci/rnaturalearthhires
 pandoc_version: 2.6
 cache: packages
 
